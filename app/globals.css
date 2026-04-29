@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fef3f5 0%, #fde8ec 100%);
+  min-height: 100vh;
+}
+
+.gradient-tinder {
+  background: linear-gradient(135deg, #FD297B 0%, #FF655B 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FD297B 0%, #FF655B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 40px rgba(253, 41, 123, 0.15);
+}
+
+.swipe-card {
+  touch-action: pan-y;
+  user-select: none;
+}
